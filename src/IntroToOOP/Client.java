@@ -14,8 +14,16 @@ public class Client {
         // Private attributes can't be accessed outside the class
 //        x.name = "Mohit";
         x.setName("Mohit");
+
+        Student s1 = new Student("Akash" , 30);
+        Student s2 = s1;
+        int x5 = s2.age;
+        Student copy1 = new Student(s1);
+        System.out.println(copy1.age);
     }
 }
 // x = 752
 // y = 752
 // z = 752
+
+// Java will only provide default in case if you have not written any of the constructor
