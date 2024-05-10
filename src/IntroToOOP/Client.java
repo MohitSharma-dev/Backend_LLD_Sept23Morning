@@ -1,12 +1,17 @@
 package IntroToOOP;
 
 public class Client {
+    public static void doSomething(){
+        System.out.println("Do something");
+    }
+
     public static void main(String[] args) {
         Student x = new Student();
         x.age = 35;
         Student y = new Student();
         y.age += 10;
         Student z = new Student();
+        doSomething();
 //        z = y;
 //        z.age += 10;
 //        z.psp = 90.0;
@@ -20,6 +25,8 @@ public class Client {
         int x5 = s2.age;
         Student copy1 = new Student(s1);
         System.out.println(copy1.age);
+        System.out.println(Student.noOfStudents);
+        System.out.println(Student.getNoOfStudents(s1));
     }
 }
 // x = 752

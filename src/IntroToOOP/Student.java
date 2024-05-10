@@ -6,6 +6,22 @@ public class Student {
     protected double psp;
     public String batch;
     Exam exam;
+    static int noOfStudents ;
+
+    // static block
+
+    static {
+        // static block will run time when the class loads
+        // You can write as many static blocks as you want
+        // It will be executed one after another
+        // write the logic
+        noOfStudents = 0;
+        try{
+
+        } catch(){
+
+        }
+    }
 
     // constructor helps you to initialise the object
 //    Student(){
@@ -17,12 +33,14 @@ public class Student {
         this.age = 25;
         this.batch = "new_batch";
         this.exam = new Exam(1 , 90);
+        Student.noOfStudents++;
     }
 
     public Student(String name , int age){
         this.name = name;
         this.age = age;
         this.exam = new Exam(1 , 90);
+        Student.noOfStudents++;
     }
 
     public Student (String name , int age, double psp){
@@ -30,6 +48,7 @@ public class Student {
         this.age = age;
         this.psp = psp;
         this.exam = new Exam(1 , 90);
+        Student.noOfStudents++;
     }
 
     public Student(Student other){
@@ -39,7 +58,7 @@ public class Student {
         this.batch = other.batch;
         // over here you are just copying the references not the actual data
         this.exam  = new Exam(other.exam);
-
+        Student.noOfStudents++;
         // Student st2 = st1;
     }
 
@@ -58,6 +77,18 @@ public class Student {
 
     void attendClass(){
         System.out.println("Attending Class");
+    }
+
+    static int getNoOfStudents(Student st){
+//        You can't directly access non-static members from the static functions
+//        if(name == "Mohit"){
+//
+//        }
+        Student x = new Student(st);
+        if(st.name.equals("Mohit")){
+            return Student.noOfStudents;
+        }
+        return Student.noOfStudents;
     }
 }
 

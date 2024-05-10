@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46d9d04b-90d7-4d1c-a3df-757bf5964f95" name="Changes" comment="Intro to OOP">
-      <change afterPath="$PROJECT_DIR$/src/IntroToOOP/Batch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IntroToOOP/Exam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IntroToOOP/ReattemptExam.java" afterDir="false" />
+    <list default="true" id="46d9d04b-90d7-4d1c-a3df-757bf5964f95" name="Changes" comment="Constructors / Deep copy /Shallow copy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/IntroToOOP/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntroToOOP/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/IntroToOOP/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntroToOOP/Student.java" afterDir="false" />
@@ -50,22 +47,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Client.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.accessModifiers.Client.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Client.executor": "Run",
+    "Application.accessModifiers.Client.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IntroToOOP.Client" />
@@ -117,7 +114,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714965288680</updated>
       <workItem from="1714965289665" duration="2405000" />
-      <workItem from="1715304929392" duration="4013000" />
+      <workItem from="1715304929392" duration="5891000" />
     </task>
     <task id="LOCAL-00001" summary="Intro to OOP">
       <option name="closed" value="true" />
@@ -127,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714967075377</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Constructors / Deep copy /Shallow copy">
+      <option name="closed" value="true" />
+      <created>1715309437583</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715309437583</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,17 +140,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Intro to OOP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Intro to OOP" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/IntroToOOP/Client.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Constructors / Deep copy /Shallow copy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Constructors / Deep copy /Shallow copy" />
   </component>
 </project>
