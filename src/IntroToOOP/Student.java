@@ -16,11 +16,7 @@ public class Student {
         // It will be executed one after another
         // write the logic
         noOfStudents = 0;
-        try{
 
-        } catch(){
-
-        }
     }
 
     // constructor helps you to initialise the object
