@@ -4,23 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46d9d04b-90d7-4d1c-a3df-757bf5964f95" name="Changes" comment="Static">
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InhertianceAndConstructors/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InhertianceAndConstructors/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InhertianceAndConstructors/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InhertianceAndConstructors/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InhertianceAndConstructors/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/RoboticDog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/RunnerPlus.java" afterDir="false" />
+    <list default="true" id="46d9d04b-90d7-4d1c-a3df-757bf5964f95" name="Changes" comment="Interfaces and Abstract classes">
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/Mammal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IntroToThreads/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IntroToThreads/HelloWorld2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IntroToThreads/HelloWorldPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IntroToThreads/NumberPrinter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IntroToOOP/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntroToOOP/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +57,7 @@
     "Application.Inheritance.Client.executor": "Run",
     "Application.InhertianceAndConstructors.Client.executor": "Run",
     "Application.Interfaces.Client.executor": "Run",
+    "Application.IntroToThreads.Client.executor": "Run",
     "Application.accessModifiers.Client.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -80,7 +71,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Inheritance.Client">
+  <component name="RunManager" selected="Application.IntroToThreads.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IntroToOOP.Client" />
       <module name="Backend_LLD_Sept23Morning" />
@@ -133,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="accessModifiers.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="accessModifiers.Client" />
+    <configuration name="IntroToThreads.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IntroToThreads.Client" />
       <module name="Backend_LLD_Sept23Morning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="accessModifiers.*" />
+          <option name="PATTERN" value="IntroToThreads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntroToThreads.Client" />
         <item itemvalue="Application.Inheritance.Client" />
         <item itemvalue="Application.Interfaces.Client" />
         <item itemvalue="Application.InhertianceAndConstructors.Client" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.accessModifiers.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +166,8 @@
       <workItem from="1714965289665" duration="2405000" />
       <workItem from="1715304929392" duration="6558000" />
       <workItem from="1715565136653" duration="2982000" />
-      <workItem from="1715737801129" duration="3976000" />
+      <workItem from="1715737801129" duration="4727000" />
+      <workItem from="1715914252014" duration="1447000" />
     </task>
     <task id="LOCAL-00001" summary="Intro to OOP">
       <option name="closed" value="true" />
@@ -201,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715311376816</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Interfaces and Abstract classes">
+      <option name="closed" value="true" />
+      <created>1715743328325</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715743328325</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +211,7 @@
     <MESSAGE value="Intro to OOP" />
     <MESSAGE value="Constructors / Deep copy /Shallow copy" />
     <MESSAGE value="Static" />
-    <option name="LAST_COMMIT_MESSAGE" value="Static" />
+    <MESSAGE value="Interfaces and Abstract classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Interfaces and Abstract classes" />
   </component>
 </project>
