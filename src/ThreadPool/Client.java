@@ -1,23 +1,34 @@
-package IntroToThreads;
+package ThreadPool;
+
+import IntroToThreads.HelloWorld2;
+import IntroToThreads.HelloWorldPrinter;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class Client {
     public static void main(String[] args) {
-        HelloWorldPrinter x = new HelloWorldPrinter();
-        System.out.println("Client main : " + Thread.currentThread().getName());
-        Thread t = new Thread(x);
-        x.run();
-        t.start(); // It will be calling x.run();
+         // It will be calling x.run();
 
-        for(int i = 1; i <= 1000000; i ++){
+        // ThreadPool : Queue, mechanism , allocation
+        // FixedThreadPool
+        ExecutorService es = Executors.newCachedThreadPool();
+
+        for(int i = 1; i <= 100; i ++){
+            if(i == 80){
+                System.out.println();
+            }
             NumberPrinter x1 = new NumberPrinter(i);
-            Thread t1 = new Thread(x1);
-            t1.start();
+            es.execute(x1);
         }
-
-        Thread t3 = new HelloWorld2();
-        t3.start();
     }
 }
+// creation of thread : itself takes some time
+// context switching between all of them
+
+
+
+
 
 // step 1: create a class for the task
 // step 2 : implement runnable interface
