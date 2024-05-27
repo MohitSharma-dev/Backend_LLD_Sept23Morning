@@ -1,20 +1,15 @@
-package AdderSubtractorLocks;
+package AdderSubtractorAtomic;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
 
 public class Client {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         Value v = new Value();
-        Lock lock = new ReentrantLock();
-        Lock lock2 = new ReentrantLock();
-
-        Adder x = new Adder(v , lock , lock2);
-        Subtractor y = new Subtractor(v , lock , lock2);
+        Adder x = new Adder(v);
+        Subtractor y = new Subtractor(v);
         ExecutorService ec = Executors.newCachedThreadPool();
 
         Future<Void> adderFuture= ec.submit(x);
