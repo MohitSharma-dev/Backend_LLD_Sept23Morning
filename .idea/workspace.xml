@@ -4,21 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46d9d04b-90d7-4d1c-a3df-757bf5964f95" name="Changes" comment="Producer - Consumer">
-      <change afterPath="$PROJECT_DIR$/src/AdderSubtractorAtomic/Adder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdderSubtractorAtomic/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdderSubtractorAtomic/Subtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdderSubtractorAtomic/Value.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProducerConsumerSemaphore/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProducerConsumerSemaphore/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProducerConsumerSemaphore/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProducerConsumerSemaphore/Store.java" afterDir="false" />
+    <list default="true" id="46d9d04b-90d7-4d1c-a3df-757bf5964f95" name="Changes" comment="Concurrency 4 and Generics">
+      <change afterPath="$PROJECT_DIR$/src/Collections/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/StudentPSPComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/AnimalUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AdderSubtractorLocks/Adder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdderSubtractorLocks/Adder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AdderSubtractorLocks/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdderSubtractorLocks/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AdderSubtractorLocks/Subtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdderSubtractorLocks/Subtractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generics/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generics/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +61,8 @@
     &quot;Application.AdderSubtractorSyncBlock.Client.executor&quot;: &quot;Run&quot;,
     &quot;Application.AdderSubtractorSyncMethod.Client.executor&quot;: &quot;Run&quot;,
     &quot;Application.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Collections.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Generics.Client.executor&quot;: &quot;Run&quot;,
     &quot;Application.Inheritance.Client.executor&quot;: &quot;Run&quot;,
     &quot;Application.InhertianceAndConstructors.Client.executor&quot;: &quot;Run&quot;,
     &quot;Application.Interfaces.Client.executor&quot;: &quot;Run&quot;,
@@ -96,7 +92,7 @@
       <recent name="$PROJECT_DIR$/src/AdderSubtractorSyncBlock" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AdderSubtractorLocks.Client">
+  <component name="RunManager" selected="Application.Collections.Client">
     <configuration name="AdderSubtractorAtomic.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AdderSubtractorAtomic.Client" />
       <module name="Backend_LLD_Sept23Morning" />
@@ -123,19 +119,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdderSubtractorSyncMethod.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AdderSubtractorSyncMethod.Client" />
-      <module name="Backend_LLD_Sept23Morning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AdderSubtractorSyncMethod.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ProducerConsumerSemaphore.Client" />
       <module name="Backend_LLD_Sept23Morning" />
@@ -149,12 +132,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerConsumer.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProducerConsumer.Client" />
+    <configuration name="Collections.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.Client" />
       <module name="Backend_LLD_Sept23Morning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ProducerConsumer.*" />
+          <option name="PATTERN" value="Collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Generics.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generics.Client" />
+      <module name="Backend_LLD_Sept23Morning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Collections.Client" />
+        <item itemvalue="Application.Generics.Client" />
         <item itemvalue="Application.AdderSubtractorLocks.Client" />
         <item itemvalue="Application.AdderSubtractorAtomic.Client" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.ProducerConsumer.Client" />
-        <item itemvalue="Application.AdderSubtractorSyncMethod.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +192,9 @@
       <workItem from="1716169698088" duration="5408000" />
       <workItem from="1716344037931" duration="5268000" />
       <workItem from="1716516380929" duration="3750000" />
-      <workItem from="1716773891060" duration="2816000" />
+      <workItem from="1716773891060" duration="5065000" />
+      <workItem from="1716946733564" duration="3503000" />
+      <workItem from="1716950525861" duration="2296000" />
     </task>
     <task id="LOCAL-00001" summary="Intro to OOP">
       <option name="closed" value="true" />
@@ -262,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716348643317</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Concurrency 4 and Generics">
+      <option name="closed" value="true" />
+      <created>1716777873104</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1716777873104</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,7 +283,8 @@
     <MESSAGE value="Executors and callables" />
     <MESSAGE value="Mutex and Synchronized" />
     <MESSAGE value="Producer - Consumer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Producer - Consumer" />
+    <MESSAGE value="Concurrency 4 and Generics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Concurrency 4 and Generics" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

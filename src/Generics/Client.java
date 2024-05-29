@@ -37,6 +37,16 @@ public class Client {
 //        int x7 = 5;
         Pair.dodo();
 //        Integer x5 = x7; // int
+        List<Dog> dogs = new ArrayList<>();
+//        dogs.add(new Animal(""));
+        dogs.add(new Dog("Tobby"));
+        dogs.add(new Dog("Tommy"));
+
+        List<Animal> animals = new ArrayList<>();
+        animals.add(new Dog("Tom"));
+        animals.add(new Dog("Tom1"));
+
+        AnimalUtility.printAnimalNames(dogs);
     }
 }
 // Object : Integer , Double , Long
