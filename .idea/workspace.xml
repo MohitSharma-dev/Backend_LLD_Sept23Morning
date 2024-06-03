@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46d9d04b-90d7-4d1c-a3df-757bf5964f95" name="Changes" comment="Collections">
+    <list default="true" id="46d9d04b-90d7-4d1c-a3df-757bf5964f95" name="Changes" comment="Streams and Lambdas">
       <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/RandomException.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LambdasAndStreams/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LambdasAndStreams/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LambdasAndStreams/ThreadedProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IterableIterator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IterableIterator/Numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IterableIterator/RandomIterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Collections/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/Client.java" afterDir="false" />
     </list>
@@ -66,6 +67,7 @@
     "Application.InhertianceAndConstructors.Client.executor": "Run",
     "Application.Interfaces.Client.executor": "Run",
     "Application.IntroToThreads.Client.executor": "Run",
+    "Application.IterableIterator.Client.executor": "Run",
     "Application.LambdasAndStreams.Client.executor": "Run",
     "Application.ProducerConsumer.Client.executor": "Run",
     "Application.ThreadPool.Client.executor": "Debug",
@@ -92,20 +94,7 @@
       <recent name="$PROJECT_DIR$/src/AdderSubtractorSyncBlock" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
-    <configuration name="AdderSubtractorLocks.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AdderSubtractorLocks.Client" />
-      <module name="Backend_LLD_Sept23Morning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AdderSubtractorLocks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.IterableIterator.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExceptionHandling.Client" />
       <module name="Backend_LLD_Sept23Morning" />
@@ -145,6 +134,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IterableIterator.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IterableIterator.Client" />
+      <module name="Backend_LLD_Sept23Morning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="IterableIterator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LambdasAndStreams.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LambdasAndStreams.Client" />
       <module name="Backend_LLD_Sept23Morning" />
@@ -160,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IterableIterator.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.LambdasAndStreams.Client" />
         <item itemvalue="Application.Collections.Client" />
         <item itemvalue="Application.Generics.Client" />
-        <item itemvalue="Application.AdderSubtractorLocks.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +197,7 @@
       <workItem from="1716773891060" duration="5065000" />
       <workItem from="1716946733564" duration="3503000" />
       <workItem from="1716950525861" duration="3419000" />
-      <workItem from="1717119912047" duration="7399000" />
+      <workItem from="1717119912047" duration="11108000" />
     </task>
     <task id="LOCAL-00001" summary="Intro to OOP">
       <option name="closed" value="true" />
@@ -277,7 +279,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716953158948</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Streams and Lambdas">
+      <option name="closed" value="true" />
+      <created>1717379384052</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1717379384053</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,7 +304,8 @@
     <MESSAGE value="Producer - Consumer" />
     <MESSAGE value="Concurrency 4 and Generics" />
     <MESSAGE value="Collections" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collections" />
+    <MESSAGE value="Streams and Lambdas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Streams and Lambdas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

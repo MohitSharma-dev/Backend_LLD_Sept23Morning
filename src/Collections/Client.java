@@ -6,7 +6,8 @@ public class Client {
     public static void main(String[] args) {
 //        Collection : Container , group of objects
         // List , Set , Queue
-
+//        Collection
+        // for each
         // List : ordered collection : insertion order
         // index : inserting , searching , random access
         // allow duplicate elements
