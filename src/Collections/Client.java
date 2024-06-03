@@ -15,6 +15,7 @@ public class Client {
         // random : O(1) : index
         // Not thread safe , not synchronized
         List<String> list = new ArrayList<String>();
+        ArrayList<Integer> x1 = new ArrayList<>();
 
         // doubly linked List is used to implement this collection
         // random : O(N)
@@ -112,6 +113,7 @@ public class Client {
         }
 
         Collections.sort(list1 , new StudentPSPComparator());
+        Collections.sort(list1 , (o1 , o2) -> o1.age - o2.age);
 
         // comparable is used for a single default ordering of any custom class
         // comparators provides multiple custom sorting rules for a single class
