@@ -4,15 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46d9d04b-90d7-4d1c-a3df-757bf5964f95" name="Changes" comment="Streams and Lambdas">
+    <list default="true" id="46d9d04b-90d7-4d1c-a3df-757bf5964f95" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/RandomException.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IterableIterator/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IterableIterator/Numbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IterableIterator/RandomIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV0/BirdV0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV1/BirdV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV1/Eagle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV1/Penguin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV1/Pigeon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV2/BirdV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV2/Eagle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV2/FlyingBird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV2/NonlyingBird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV2/Penguin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV2/Pigeon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV3/BirdV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV3/Eagle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV3/Flyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV3/Penguin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV3/Pigeon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV3/Sparrow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV3/Vulture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV4/BirdV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV4/Eagle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV4/FlyHigh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV4/FlyLow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV4/Flyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV4/Penguin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV4/Pigeon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV4/Sparrow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV4/Vulture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV5/BirdV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV5/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV5/Eagle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV5/FlyHigh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV5/FlyLow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV5/Flyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV5/FlyingBehaviour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV5/Penguin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV5/Pigeon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV5/Sparrow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV5/Vulture.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collections/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,45 +86,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AdderSubtractor.Client.executor": "Run",
-    "Application.AdderSubtractorAtomic.Client.executor": "Run",
-    "Application.AdderSubtractorLocks.Client.executor": "Run",
-    "Application.AdderSubtractorSyncBlock.Client.executor": "Run",
-    "Application.AdderSubtractorSyncMethod.Client.executor": "Run",
-    "Application.Client.executor": "Run",
-    "Application.Collections.Client.executor": "Run",
-    "Application.Generics.Client.executor": "Run",
-    "Application.Inheritance.Client.executor": "Run",
-    "Application.InhertianceAndConstructors.Client.executor": "Run",
-    "Application.Interfaces.Client.executor": "Run",
-    "Application.IntroToThreads.Client.executor": "Run",
-    "Application.IterableIterator.Client.executor": "Run",
-    "Application.LambdasAndStreams.Client.executor": "Run",
-    "Application.ProducerConsumer.Client.executor": "Run",
-    "Application.ThreadPool.Client.executor": "Debug",
-    "Application.accessModifiers.Client.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/mohitsharma/Documents/Student_Submissions/Backend_LLD_Sept23Morning/src/AdderSubtractorAtomic",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AdderSubtractor.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AdderSubtractorAtomic.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AdderSubtractorLocks.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AdderSubtractorSyncBlock.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AdderSubtractorSyncMethod.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Collections.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Generics.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Inheritance.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InhertianceAndConstructors.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Interfaces.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IntroToThreads.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IterableIterator.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LambdasAndStreams.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProducerConsumer.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadPool.Client.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.accessModifiers.Client.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mohitsharma/Documents/Student_Submissions/Backend_LLD_Sept23Morning/src/SOLID/BirdV5&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/SOLID/BirdV5" />
+      <recent name="$PROJECT_DIR$/src/SOLID/BirdV4" />
+      <recent name="$PROJECT_DIR$/src/SOLID/BirdV3" />
+      <recent name="$PROJECT_DIR$/src/SOLID/BirdV2" />
       <recent name="$PROJECT_DIR$/src/AdderSubtractorAtomic" />
-      <recent name="$PROJECT_DIR$/src/ProducerConsumerSemaphore" />
-      <recent name="$PROJECT_DIR$/src/ProducerConsumer" />
-      <recent name="$PROJECT_DIR$/src/AdderSubtractorSyncMethod" />
-      <recent name="$PROJECT_DIR$/src/AdderSubtractorSyncBlock" />
     </key>
   </component>
   <component name="RunManager" selected="Application.IterableIterator.Client">
@@ -197,7 +230,9 @@
       <workItem from="1716773891060" duration="5065000" />
       <workItem from="1716946733564" duration="3503000" />
       <workItem from="1716950525861" duration="3419000" />
-      <workItem from="1717119912047" duration="11108000" />
+      <workItem from="1717119912047" duration="11728000" />
+      <workItem from="1717985915122" duration="1869000" />
+      <workItem from="1718041145613" duration="32000" />
     </task>
     <task id="LOCAL-00001" summary="Intro to OOP">
       <option name="closed" value="true" />
@@ -287,7 +322,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717379384053</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Exception Handling and MISC">
+      <option name="closed" value="true" />
+      <created>1717383085870</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1717383085870</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +348,8 @@
     <MESSAGE value="Concurrency 4 and Generics" />
     <MESSAGE value="Collections" />
     <MESSAGE value="Streams and Lambdas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Streams and Lambdas" />
+    <MESSAGE value="Exception Handling and MISC" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exception Handling and MISC" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
