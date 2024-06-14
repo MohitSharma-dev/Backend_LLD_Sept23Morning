@@ -11,19 +11,27 @@ public class StudentBuilder {
         this.course = course;
     }
 
-    public void setAge(int age) {
+    public StudentBuilder setAge(int age) {
         this.age = age;
+        return this;
     }
 
-    public void setName(String name) {
+    public StudentBuilder setName(String name) {
         this.name = name;
+        return this;
     }
 
-    public void setBatch(String batch) {
+    public StudentBuilder setBatch(String batch) {
         this.batch = batch;
+        return this;
     }
 
-    public void setGradYear(int gradYear) {
+    public StudentBuilder setGradYear(int gradYear) {
         this.gradYear = gradYear;
+        return this;
+    }
+
+    Student build(){
+        return new Student(this);
     }
 }

@@ -23,11 +23,15 @@ public class Student {
         name = builder.name;
         batch = builder.batch;
         gradYear = builder.gradYear;
-        if(course != null){
-            this.course = course;
+        if(builder.course != null){
+            this.course = builder.course;
         } else {
             this.course = "Academy";
         }
 
+    }
+
+    static StudentBuilder getBuilder(){
+        return new StudentBuilder();
     }
 }
