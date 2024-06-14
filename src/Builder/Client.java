@@ -18,7 +18,7 @@ public class Client {
                         .build();
 
 
-//        Student s = new Student(studentBuilder);
+//        Student s2 = new Student(studentBuilder);
 //        s.age = 25;
 
     }
