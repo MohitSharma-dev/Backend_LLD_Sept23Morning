@@ -4,49 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46d9d04b-90d7-4d1c-a3df-757bf5964f95" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV0/BirdV0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV1/BirdV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV1/Eagle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV1/Penguin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV1/Pigeon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV2/BirdV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV2/Eagle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV2/FlyingBird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV2/NonlyingBird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV2/Penguin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV2/Pigeon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV3/BirdV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV3/Eagle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV3/Flyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV3/Penguin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV3/Pigeon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV3/Sparrow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV3/Vulture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV4/BirdV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV4/Eagle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV4/FlyHigh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV4/FlyLow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV4/Flyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV4/Penguin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV4/Pigeon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV4/Sparrow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV4/Vulture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV5/BirdV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV5/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV5/Eagle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV5/FlyHigh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV5/FlyLow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV5/Flyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV5/FlyingBehaviour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV5/Penguin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV5/Pigeon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV5/Sparrow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV5/Vulture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="46d9d04b-90d7-4d1c-a3df-757bf5964f95" name="Changes" comment="SOLID" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -233,6 +191,7 @@
       <workItem from="1717119912047" duration="11728000" />
       <workItem from="1717985915122" duration="1869000" />
       <workItem from="1718041145613" duration="32000" />
+      <workItem from="1718098562465" duration="21000" />
     </task>
     <task id="LOCAL-00001" summary="Intro to OOP">
       <option name="closed" value="true" />
@@ -330,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717383085870</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="SOLID">
+      <option name="closed" value="true" />
+      <created>1718098577528</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1718098577528</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,7 +316,8 @@
     <MESSAGE value="Collections" />
     <MESSAGE value="Streams and Lambdas" />
     <MESSAGE value="Exception Handling and MISC" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exception Handling and MISC" />
+    <MESSAGE value="SOLID" />
+    <option name="LAST_COMMIT_MESSAGE" value="SOLID" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
