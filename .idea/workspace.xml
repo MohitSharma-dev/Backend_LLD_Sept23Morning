@@ -4,12 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46d9d04b-90d7-4d1c-a3df-757bf5964f95" name="Changes" comment="Builder : V2">
-      <change afterPath="$PROJECT_DIR$/src/PrototypeAndRegistry/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrototypeAndRegistry/IntelligentStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrototypeAndRegistry/Prototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrototypeAndRegistry/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrototypeAndRegistry/StudentRegistry.java" afterDir="false" />
+    <list default="true" id="46d9d04b-90d7-4d1c-a3df-757bf5964f95" name="Changes" comment="Prototype and registry">
+      <change afterPath="$PROJECT_DIR$/src/Factory/Android.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/AndroidComponentFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/IOS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/IOSComponentFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Platform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/PlatformFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/UIComponentFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/components/Button/AndroidButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/components/Button/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/components/Button/IOSButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/components/Dropdown/AndriodDropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/components/Dropdown/Dropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/components/Dropdown/IOSDropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/components/Menu/AndroidMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/components/Menu/IOSMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/components/Menu/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -200,7 +212,8 @@
       <workItem from="1718041145613" duration="32000" />
       <workItem from="1718098562465" duration="21000" />
       <workItem from="1718331411005" duration="4624000" />
-      <workItem from="1718764398847" duration="1279000" />
+      <workItem from="1718764398847" duration="1991000" />
+      <workItem from="1718937764351" duration="2101000" />
     </task>
     <task id="LOCAL-00001" summary="Intro to OOP">
       <option name="closed" value="true" />
@@ -330,7 +343,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718334917794</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Prototype and registry">
+      <option name="closed" value="true" />
+      <created>1718765703431</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1718765703431</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,7 +385,8 @@
     <MESSAGE value="Builder : V0" />
     <MESSAGE value="Builder : V1" />
     <MESSAGE value="Builder : V2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Builder : V2" />
+    <MESSAGE value="Prototype and registry" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prototype and registry" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
