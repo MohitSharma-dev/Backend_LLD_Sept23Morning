@@ -4,24 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46d9d04b-90d7-4d1c-a3df-757bf5964f95" name="Changes" comment="Prototype and registry">
-      <change afterPath="$PROJECT_DIR$/src/Factory/Android.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/AndroidComponentFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/IOS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/IOSComponentFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Platform.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/PlatformFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/UIComponentFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/components/Button/AndroidButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/components/Button/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/components/Button/IOSButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/components/Dropdown/AndriodDropdown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/components/Dropdown/Dropdown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/components/Dropdown/IOSDropdown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/components/Menu/AndroidMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/components/Menu/IOSMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/components/Menu/Menu.java" afterDir="false" />
+    <list default="true" id="46d9d04b-90d7-4d1c-a3df-757bf5964f95" name="Changes" comment="Factory design Patter">
+      <change afterPath="$PROJECT_DIR$/src/AdapterV0Tight/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdapterV0Tight/FastTagRecharge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdapterV0Tight/PhonePe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdapterV0Tight/PhonePeLoan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdapterV0Tight/YesBankAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdapterV1Loose/BankAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdapterV1Loose/BankAPIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdapterV1Loose/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdapterV1Loose/FastTagRecharge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdapterV1Loose/ICICIBankAPIAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdapterV1Loose/PhonePe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdapterV1Loose/PhonePeLoan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdapterV1Loose/YesBankAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdapterV1Loose/YesBankAPIAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,45 +60,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AdderSubtractor.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AdderSubtractorAtomic.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AdderSubtractorLocks.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AdderSubtractorSyncBlock.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AdderSubtractorSyncMethod.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Collections.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Generics.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Inheritance.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InhertianceAndConstructors.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Interfaces.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IntroToThreads.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IterableIterator.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LambdasAndStreams.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProducerConsumer.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadPool.Client.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.accessModifiers.Client.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/mohitsharma/Documents/Student_Submissions/Backend_LLD_Sept23Morning/src/SOLID/BirdV5&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AdderSubtractor.Client.executor": "Run",
+    "Application.AdderSubtractorAtomic.Client.executor": "Run",
+    "Application.AdderSubtractorLocks.Client.executor": "Run",
+    "Application.AdderSubtractorSyncBlock.Client.executor": "Run",
+    "Application.AdderSubtractorSyncMethod.Client.executor": "Run",
+    "Application.Client.executor": "Run",
+    "Application.Collections.Client.executor": "Run",
+    "Application.Generics.Client.executor": "Run",
+    "Application.Inheritance.Client.executor": "Run",
+    "Application.InhertianceAndConstructors.Client.executor": "Run",
+    "Application.Interfaces.Client.executor": "Run",
+    "Application.IntroToThreads.Client.executor": "Run",
+    "Application.IterableIterator.Client.executor": "Run",
+    "Application.LambdasAndStreams.Client.executor": "Run",
+    "Application.ProducerConsumer.Client.executor": "Run",
+    "Application.ThreadPool.Client.executor": "Debug",
+    "Application.accessModifiers.Client.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/mohitsharma/Documents/Student_Submissions/Backend_LLD_Sept23Morning/src/AdapterV1Loose",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/AdapterV1Loose" />
       <recent name="$PROJECT_DIR$/src/SOLID/BirdV5" />
       <recent name="$PROJECT_DIR$/src/SOLID/BirdV4" />
       <recent name="$PROJECT_DIR$/src/SOLID/BirdV3" />
       <recent name="$PROJECT_DIR$/src/SOLID/BirdV2" />
-      <recent name="$PROJECT_DIR$/src/AdderSubtractorAtomic" />
     </key>
   </component>
   <component name="RunManager" selected="Application.IterableIterator.Client">
@@ -214,6 +211,7 @@
       <workItem from="1718331411005" duration="4624000" />
       <workItem from="1718764398847" duration="1991000" />
       <workItem from="1718937764351" duration="2101000" />
+      <workItem from="1719195133138" duration="2082000" />
     </task>
     <task id="LOCAL-00001" summary="Intro to OOP">
       <option name="closed" value="true" />
@@ -351,7 +349,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718765703431</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Factory design Patter">
+      <option name="closed" value="true" />
+      <created>1719195151204</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1719195151204</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +392,8 @@
     <MESSAGE value="Builder : V1" />
     <MESSAGE value="Builder : V2" />
     <MESSAGE value="Prototype and registry" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prototype and registry" />
+    <MESSAGE value="Factory design Patter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Factory design Patter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
