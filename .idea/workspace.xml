@@ -4,22 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46d9d04b-90d7-4d1c-a3df-757bf5964f95" name="Changes" comment="Factory design Patter">
-      <change afterPath="$PROJECT_DIR$/src/AdapterV0Tight/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdapterV0Tight/FastTagRecharge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdapterV0Tight/PhonePe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdapterV0Tight/PhonePeLoan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdapterV0Tight/YesBankAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdapterV1Loose/BankAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdapterV1Loose/BankAPIFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdapterV1Loose/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdapterV1Loose/FastTagRecharge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdapterV1Loose/ICICIBankAPIAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdapterV1Loose/PhonePe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdapterV1Loose/PhonePeLoan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdapterV1Loose/YesBankAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdapterV1Loose/YesBankAPIAdapter.java" afterDir="false" />
+    <list default="true" id="46d9d04b-90d7-4d1c-a3df-757bf5964f95" name="Changes" comment="Adapter Design Pattern">
+      <change afterPath="$PROJECT_DIR$/src/Decorator/AddOn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/DarkRoast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/HouseBlend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Milk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Mocha.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SOLID/BirdV2/Eagle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SOLID/BirdV2/Eagle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,38 +54,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AdderSubtractor.Client.executor": "Run",
-    "Application.AdderSubtractorAtomic.Client.executor": "Run",
-    "Application.AdderSubtractorLocks.Client.executor": "Run",
-    "Application.AdderSubtractorSyncBlock.Client.executor": "Run",
-    "Application.AdderSubtractorSyncMethod.Client.executor": "Run",
-    "Application.Client.executor": "Run",
-    "Application.Collections.Client.executor": "Run",
-    "Application.Generics.Client.executor": "Run",
-    "Application.Inheritance.Client.executor": "Run",
-    "Application.InhertianceAndConstructors.Client.executor": "Run",
-    "Application.Interfaces.Client.executor": "Run",
-    "Application.IntroToThreads.Client.executor": "Run",
-    "Application.IterableIterator.Client.executor": "Run",
-    "Application.LambdasAndStreams.Client.executor": "Run",
-    "Application.ProducerConsumer.Client.executor": "Run",
-    "Application.ThreadPool.Client.executor": "Debug",
-    "Application.accessModifiers.Client.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/mohitsharma/Documents/Student_Submissions/Backend_LLD_Sept23Morning/src/AdapterV1Loose",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AdderSubtractor.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AdderSubtractorAtomic.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AdderSubtractorLocks.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AdderSubtractorSyncBlock.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AdderSubtractorSyncMethod.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Collections.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Decorator.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Generics.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Inheritance.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InhertianceAndConstructors.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Interfaces.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IntroToThreads.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IterableIterator.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LambdasAndStreams.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProducerConsumer.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadPool.Client.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.accessModifiers.Client.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mohitsharma/Documents/Student_Submissions/Backend_LLD_Sept23Morning/src/AdapterV1Loose&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/AdapterV1Loose" />
@@ -101,7 +96,7 @@
       <recent name="$PROJECT_DIR$/src/SOLID/BirdV2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IterableIterator.Client">
+  <component name="RunManager" selected="Application.Decorator.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExceptionHandling.Client" />
       <module name="Backend_LLD_Sept23Morning" />
@@ -128,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Generics.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Generics.Client" />
+    <configuration name="Decorator.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Decorator.Client" />
       <module name="Backend_LLD_Sept23Morning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Generics.*" />
+          <option name="PATTERN" value="Decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Decorator.Client" />
         <item itemvalue="Application.IterableIterator.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.LambdasAndStreams.Client" />
         <item itemvalue="Application.Collections.Client" />
-        <item itemvalue="Application.Generics.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +206,9 @@
       <workItem from="1718331411005" duration="4624000" />
       <workItem from="1718764398847" duration="1991000" />
       <workItem from="1718937764351" duration="2101000" />
-      <workItem from="1719195133138" duration="2082000" />
+      <workItem from="1719195133138" duration="3347000" />
+      <workItem from="1719368176588" duration="1131000" />
+      <workItem from="1719538288964" duration="610000" />
     </task>
     <task id="LOCAL-00001" summary="Intro to OOP">
       <option name="closed" value="true" />
@@ -357,7 +354,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719195151204</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Adapter Design Pattern">
+      <option name="closed" value="true" />
+      <created>1719198023146</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1719198023146</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,7 +398,8 @@
     <MESSAGE value="Builder : V2" />
     <MESSAGE value="Prototype and registry" />
     <MESSAGE value="Factory design Patter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Factory design Patter" />
+    <MESSAGE value="Adapter Design Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adapter Design Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
