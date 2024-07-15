@@ -4,22 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46d9d04b-90d7-4d1c-a3df-757bf5964f95" name="Changes" comment="Strategy V0">
-      <change afterPath="$PROJECT_DIR$/src/Observer/CurrentConditionsDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/DisplayElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/ForecastDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/StatisticsDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/WeatherData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/WeatherStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/BikePathCalcStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/CarPathCalcStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/PathCalcStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/PathCalculatorStrategyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/WalkPathCalcStrategy.java" afterDir="false" />
+    <list default="true" id="46d9d04b-90d7-4d1c-a3df-757bf5964f95" name="Changes" comment="Strategy V1">
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/controllers/GameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/models/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/models/BotDifficultyLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/models/BotPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/models/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/models/CellState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/models/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/models/GameState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/models/HumanPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/models/Move.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/models/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/models/PlayerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/models/Symbol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/strategies/RowWinningStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/strategies/WinningStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strategy/GoogleMaps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strategy/GoogleMaps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +82,7 @@
     "Application.LambdasAndStreams.Client.executor": "Run",
     "Application.ProducerConsumer.Client.executor": "Run",
     "Application.ThreadPool.Client.executor": "Debug",
+    "Application.TicTacToe.Client.executor": "Run",
     "Application.WeatherStation.executor": "Run",
     "Application.accessModifiers.Client.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -104,7 +107,7 @@
       <recent name="$PROJECT_DIR$/src/SOLID/BirdV3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WeatherStation">
+  <component name="RunManager" selected="Application.TicTacToe.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExceptionHandling.Client" />
       <module name="Backend_LLD_Sept23Morning" />
@@ -144,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdasAndStreams.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LambdasAndStreams.Client" />
+    <configuration name="TicTacToe.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TicTacToe.Client" />
       <module name="Backend_LLD_Sept23Morning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LambdasAndStreams.*" />
+          <option name="PATTERN" value="TicTacToe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TicTacToe.Client" />
         <item itemvalue="Application.WeatherStation" />
         <item itemvalue="Application.Decorator.Client" />
         <item itemvalue="Application.IterableIterator.Client" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.LambdasAndStreams.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +219,9 @@
       <workItem from="1718937764351" duration="2101000" />
       <workItem from="1719195133138" duration="3347000" />
       <workItem from="1719368176588" duration="1131000" />
-      <workItem from="1719538288964" duration="5543000" />
+      <workItem from="1719538288964" duration="6167000" />
+      <workItem from="1719593174652" duration="30000" />
+      <workItem from="1721007303124" duration="5202000" />
     </task>
     <task id="LOCAL-00001" summary="Intro to OOP">
       <option name="closed" value="true" />
@@ -386,7 +391,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719539938466</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Strategy V1">
+      <option name="closed" value="true" />
+      <created>1719546137771</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1719546137771</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,7 +438,8 @@
     <MESSAGE value="Adapter Design Pattern" />
     <MESSAGE value="Decorator" />
     <MESSAGE value="Strategy V0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Strategy V0" />
+    <MESSAGE value="Strategy V1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Strategy V1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
