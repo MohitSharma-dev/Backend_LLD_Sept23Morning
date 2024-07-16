@@ -45,6 +45,11 @@ public class Cell {
         this.symbol = symbol;
     }
 
+    public void updateCellStatus(Symbol symbol, CellState cellState){
+        this.cellState = cellState;
+        this.symbol = symbol;
+    }
+
     public void display(){
         if(symbol != null){
             System.out.print("| " + symbol.getSym() + " |");
