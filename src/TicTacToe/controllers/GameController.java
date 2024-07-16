@@ -1,22 +1,20 @@
 package TicTacToe.controllers;
 
-import TicTacToe.models.Board;
-import TicTacToe.models.Game;
-import TicTacToe.models.GameState;
-import TicTacToe.models.Player;
+import TicTacToe.models.*;
 import TicTacToe.strategies.WinningStrategy;
 
 import java.util.List;
+import java.util.Scanner;
 
 public class GameController {
     public Game startGame(
-            int dimension,
+            int noOfPlayers,
             List<Player> players,
             List<WinningStrategy>  winningStrategies
     ){
         return Game
                 .getBuilder()
-                .setDimension(dimension)
+                .setNoOfPlayers(noOfPlayers)
                 .setPlayers(players)
                 .setWinningStrategies(winningStrategies)
                 .build();
@@ -31,7 +29,7 @@ public class GameController {
     }
 
     public void makeMove(Game game){
-
+        game.makeMove();
     }
 
     public Player getWinner(Game game){
@@ -39,7 +37,7 @@ public class GameController {
     }
 
     public void undo(Game game){
-
+        game.undo();
     }
 }
 
