@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46d9d04b-90d7-4d1c-a3df-757bf5964f95" name="Changes" comment="Strategy V1">
-      <change afterPath="$PROJECT_DIR$/src/TicTacToe/models/SymbolManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/controllers/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/controllers/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/models/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/models/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/models/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/models/Cell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/models/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/models/Game.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +73,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/IntellijProjects/Scaler_Mohit_LLD/Backend_LLD_Sept23Morning",
+    "last_opened_file_path": "E:/IntellijProjects/Scaler_Mohit_LLD/forkedRepo/Backend_LLD_Sept23Morning",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -214,7 +207,7 @@
       <workItem from="1719538288964" duration="6167000" />
       <workItem from="1719593174652" duration="30000" />
       <workItem from="1721007303124" duration="5202000" />
-      <workItem from="1721115393117" duration="12012000" />
+      <workItem from="1721115393117" duration="13244000" />
     </task>
     <task id="LOCAL-00001" summary="Intro to OOP">
       <option name="closed" value="true" />
