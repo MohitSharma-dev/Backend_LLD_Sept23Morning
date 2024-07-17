@@ -31,11 +31,11 @@ public class GameController {
     }
 
     public void makeMove(Game game){
-
+        game.makeMove();
     }
 
     public Player getWinner(Game game){
-        return null;
+        return game.getWinner();
     }
 
     public void undo(Game game){

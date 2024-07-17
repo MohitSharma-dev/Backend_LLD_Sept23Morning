@@ -2,6 +2,7 @@ package TicTacToe;
 
 import TicTacToe.controllers.GameController;
 import TicTacToe.models.*;
+import TicTacToe.strategies.ColWinningStrategy;
 import TicTacToe.strategies.RowWinningStrategy;
 
 import java.util.ArrayList;
@@ -18,7 +19,7 @@ public class Client {
         Game game = gameController.startGame(
                 3,
                 players,
-                List.of(new RowWinningStrategy())
+                List.of(new RowWinningStrategy() ,  new ColWinningStrategy())
         );
         // for every new client, do you generate a new waiter
 //        GameController gameController2 = new GameController();
@@ -27,8 +28,8 @@ public class Client {
         gameController.display(game);
 
         while(gameController.checkState(game).equals(GameState.IN_PROGRESS)) {
-//            gameController.display(game);
             gameController.makeMove(game);
+            gameController.display(game);
         }
 
         if(gameController.checkState(game).equals(GameState.SUCCESS)) {
