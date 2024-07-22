@@ -7,8 +7,10 @@ import TicTacToe.strategies.RowWinningStrategy;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class Client {
+    static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
         GameController gameController = new GameController();
 
@@ -30,6 +32,14 @@ public class Client {
         while(gameController.checkState(game).equals(GameState.IN_PROGRESS)) {
             gameController.makeMove(game);
             gameController.display(game);
+
+            System.out.println("Do you want to Undo ? [Y/N]");
+            String undoAnswer = scanner.nextLine();
+            if(undoAnswer.equals("Y")) {
+                gameController.undo(game);
+                System.out.println("Undo is successfull!");
+                gameController.display(game);
+            }
         }
 
         if(gameController.checkState(game).equals(GameState.SUCCESS)) {
@@ -44,6 +54,10 @@ public class Client {
 // 2. Get ready your controller and basic interaction with the client
 // 3. Make sure that every model has a constructor
 // 4. Implement the functionalities one by one
+//      a. start the game
+//      b. display
+//      c. makeMove : game , player , winning Strategy , bot move
+//      d. undo
 
 
 
