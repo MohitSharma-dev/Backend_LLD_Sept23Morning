@@ -1,10 +1,12 @@
 package ParkingLot.models;
 
+// 'select * from gate where id = 5'
 public class Gate extends BaseModel{
     private String gateNumber;
     private Operator operator;
     private GateType gateType;
     private GateStatus gateStatus;
+    private ParkingLot parkingLot;
 
     public String getGateNumber() {
         return gateNumber;
@@ -12,6 +14,14 @@ public class Gate extends BaseModel{
 
     public void setGateNumber(String gateNumber) {
         this.gateNumber = gateNumber;
+    }
+
+    public ParkingLot getParkingLot() {
+        return parkingLot;
+    }
+
+    public void setParkingLot(ParkingLot parkingLot) {
+        this.parkingLot = parkingLot;
     }
 
     public Operator getOperator() {

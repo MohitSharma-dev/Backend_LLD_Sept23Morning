@@ -1,15 +1,26 @@
 package ParkingLot.dtos;
 
-public class IssueTicketResponseDTO {
-    private int ticketId;
-    private ResponseStatus responseStatus;
+import ParkingLot.models.Ticket;
 
-    public int getTicketId() {
-        return ticketId;
+public class IssueTicketResponseDTO {
+    private Ticket ticket;
+    private ResponseStatus responseStatus;
+    private String failureMessage;
+
+    public String getFailureMessage() {
+        return failureMessage;
     }
 
-    public void setTicketId(int ticketId) {
-        this.ticketId = ticketId;
+    public void setFailureMessage(String failureMessage) {
+        this.failureMessage = failureMessage;
+    }
+
+    public Ticket getTicket() {
+        return ticket;
+    }
+
+    public void setTicket(Ticket ticket) {
+        this.ticket = ticket;
     }
 
     public ResponseStatus getResponseStatus() {

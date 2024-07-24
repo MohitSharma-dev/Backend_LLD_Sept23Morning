@@ -5,38 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46d9d04b-90d7-4d1c-a3df-757bf5964f95" name="Changes" comment="Parking Lot : Models">
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/controllers/TicketController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/dtos/IssueTicketRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/dtos/IssueTicketResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/dtos/ResponseStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/BaseModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/Bill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/Gate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/GateStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/GateType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/ParkingFloor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/ParkingFloorStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/ParkingLot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/ParkingLotStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/ParkingSlot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/ParkingSlotStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/PaymentMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/PaymentStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/SupportedVehicleType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/VehicleType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/services/TicketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/SlotAssignmentStrategyType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/repositories/GateRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/repositories/ParkingLotRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/repositories/TicketRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/repositories/VehicleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/strategies/RandomSlotAssignmentStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/strategies/SlotAssignmentStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/strategies/SlotAssignmentStrategyFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/controllers/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/controllers/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/models/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/models/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/strategies/ColWinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/strategies/ColWinningStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/strategies/RowWinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/strategies/RowWinningStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/strategies/WinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/strategies/WinningStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingLot/client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingLot/controllers/TicketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/controllers/TicketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingLot/dtos/IssueTicketRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/dtos/IssueTicketRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingLot/dtos/IssueTicketResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/dtos/IssueTicketResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingLot/models/Gate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/models/Gate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingLot/models/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/models/ParkingLot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingLot/models/ParkingSlot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/models/ParkingSlot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingLot/models/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/models/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingLot/services/TicketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/services/TicketService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,41 +64,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AdderSubtractor.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AdderSubtractorAtomic.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AdderSubtractorLocks.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AdderSubtractorSyncBlock.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AdderSubtractorSyncMethod.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Collections.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Decorator.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Generics.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Inheritance.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InhertianceAndConstructors.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Interfaces.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IntroToThreads.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IterableIterator.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LambdasAndStreams.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProducerConsumer.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadPool.Client.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.TicTacToe.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WeatherStation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.accessModifiers.Client.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/mohitsharma/Documents/Student_Submissions/Backend_LLD_Sept23Morning/src/Observer&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AdderSubtractor.Client.executor": "Run",
+    "Application.AdderSubtractorAtomic.Client.executor": "Run",
+    "Application.AdderSubtractorLocks.Client.executor": "Run",
+    "Application.AdderSubtractorSyncBlock.Client.executor": "Run",
+    "Application.AdderSubtractorSyncMethod.Client.executor": "Run",
+    "Application.Client.executor": "Run",
+    "Application.Collections.Client.executor": "Run",
+    "Application.Decorator.Client.executor": "Run",
+    "Application.Generics.Client.executor": "Run",
+    "Application.Inheritance.Client.executor": "Run",
+    "Application.InhertianceAndConstructors.Client.executor": "Run",
+    "Application.Interfaces.Client.executor": "Run",
+    "Application.IntroToThreads.Client.executor": "Run",
+    "Application.IterableIterator.Client.executor": "Run",
+    "Application.LambdasAndStreams.Client.executor": "Run",
+    "Application.ProducerConsumer.Client.executor": "Run",
+    "Application.ThreadPool.Client.executor": "Debug",
+    "Application.TicTacToe.Client.executor": "Run",
+    "Application.WeatherStation.executor": "Run",
+    "Application.accessModifiers.Client.executor": "Run",
+    "Application.client.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/mohitsharma/Documents/Student_Submissions/Backend_LLD_Sept23Morning/src/Observer",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Observer" />
@@ -122,20 +109,7 @@
       <recent name="$PROJECT_DIR$/src/SOLID/BirdV3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TicTacToe.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExceptionHandling.Client" />
-      <module name="Backend_LLD_Sept23Morning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ExceptionHandling.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.client">
     <configuration name="Decorator.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Decorator.Client" />
       <module name="Backend_LLD_Sept23Morning" />
@@ -188,13 +162,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ParkingLot.client" />
+      <module name="Backend_LLD_Sept23Morning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ParkingLot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.client" />
         <item itemvalue="Application.TicTacToe.Client" />
         <item itemvalue="Application.WeatherStation" />
         <item itemvalue="Application.Decorator.Client" />
         <item itemvalue="Application.IterableIterator.Client" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +226,8 @@
       <workItem from="1721007303124" duration="5202000" />
       <workItem from="1721012728159" duration="438000" />
       <workItem from="1721180252956" duration="5279000" />
-      <workItem from="1721614469038" duration="3115000" />
+      <workItem from="1721614469038" duration="3244000" />
+      <workItem from="1721784819448" duration="4982000" />
     </task>
     <task id="LOCAL-00001" summary="Intro to OOP">
       <option name="closed" value="true" />
@@ -433,7 +421,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721183104939</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Parking Lot : Models">
+      <option name="closed" value="true" />
+      <created>1721617613582</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1721617613589</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
