@@ -8,6 +8,14 @@ import java.util.TreeMap;
 
 public class ParkingLotRepository {
     private Map<Integer , ParkingLot> parkingLots = new TreeMap<>();
+    private static int id = 1;
+
+    public ParkingLot save(ParkingLot parkingLot) {
+        parkingLot.setId(id);
+        parkingLots.put(id, parkingLot);
+        id++;
+        return parkingLot;
+    }
 
     public ParkingLot findParkingLotByEntryGate(Gate gateToCheck){
         for(ParkingLot parkingLot : parkingLots.values()){

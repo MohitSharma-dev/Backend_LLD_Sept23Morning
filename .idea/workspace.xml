@@ -5,24 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46d9d04b-90d7-4d1c-a3df-757bf5964f95" name="Changes" comment="Parking Lot : Models">
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/SlotAssignmentStrategyType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/repositories/GateRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/repositories/ParkingLotRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/repositories/TicketRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/repositories/VehicleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/strategies/RandomSlotAssignmentStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/strategies/SlotAssignmentStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/strategies/SlotAssignmentStrategyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ParkingLot/client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ParkingLot/controllers/TicketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/controllers/TicketController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ParkingLot/dtos/IssueTicketRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/dtos/IssueTicketRequestDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ParkingLot/dtos/IssueTicketResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/dtos/IssueTicketResponseDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ParkingLot/models/Gate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/models/Gate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ParkingLot/models/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/models/ParkingLot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ParkingLot/models/ParkingSlot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/models/ParkingSlot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ParkingLot/models/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/models/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ParkingLot/services/TicketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/services/TicketService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingLot/repositories/GateRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/repositories/GateRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingLot/repositories/ParkingLotRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/repositories/ParkingLotRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingLot/repositories/VehicleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/repositories/VehicleRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,12 +77,12 @@
     "Application.TicTacToe.Client.executor": "Run",
     "Application.WeatherStation.executor": "Run",
     "Application.accessModifiers.Client.executor": "Run",
-    "Application.client.executor": "Run",
+    "Application.client.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/mohitsharma/Documents/Student_Submissions/Backend_LLD_Sept23Morning/src/Observer",
+    "last_opened_file_path": "E:/IntellijProjects/Scaler_Mohit_LLD/forkedRepo/Backend_LLD_Sept23Morning",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -188,8 +179,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
       </set>
     </attachedChunks>
   </component>
@@ -228,6 +219,8 @@
       <workItem from="1721180252956" duration="5279000" />
       <workItem from="1721614469038" duration="3244000" />
       <workItem from="1721784819448" duration="4982000" />
+      <workItem from="1721927714249" duration="107000" />
+      <workItem from="1721927839628" duration="3288000" />
     </task>
     <task id="LOCAL-00001" summary="Intro to OOP">
       <option name="closed" value="true" />

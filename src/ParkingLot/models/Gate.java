@@ -8,6 +8,16 @@ public class Gate extends BaseModel{
     private GateStatus gateStatus;
     private ParkingLot parkingLot;
 
+    public Gate() {}
+
+    public Gate(String gateNumber, Operator operator, GateType gateType, GateStatus gateStatus, ParkingLot parkingLot) {
+        this.gateNumber = gateNumber;
+        this.operator = operator;
+        this.gateType = gateType;
+        this.gateStatus = gateStatus;
+        this.parkingLot = parkingLot;
+    }
+
     public String getGateNumber() {
         return gateNumber;
     }

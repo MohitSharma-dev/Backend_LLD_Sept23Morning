@@ -5,6 +5,14 @@ public class Vehicle extends BaseModel{
     private String ownerName;
     private VehicleType vehicleType;
 
+    public Vehicle() {}
+
+    public Vehicle(String licensePlate, String ownerName, VehicleType vehicleType) {
+        this.licensePlate = licensePlate;
+        this.ownerName = ownerName;
+        this.vehicleType = vehicleType;
+    }
+
     public VehicleType getVehicleType() {
         return vehicleType;
     }
